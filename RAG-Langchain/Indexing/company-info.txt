@@ -1,0 +1,214 @@
+Contoso Tech Solutions – Internal Documentation
+Company Overview
+
+Founded: 2012
+Headquarters: Karachi, Pakistan
+Employees: 500+
+Industry: Enterprise software, Cloud services, Mobile solutions
+Mission: Drive business growth for clients through innovative technology solutions.
+Vision: Become the top enterprise technology partner in South Asia by 2030.
+
+Contoso Tech Solutions started as a small startup with 10 engineers focusing on web solutions for SMEs in Karachi. Over the years, it has scaled into a mid-size enterprise serving over 150 enterprise clients across banking, healthcare, retail, and manufacturing. The company is known for custom ERP solutions, cloud migration, and mobile applications.
+
+Products & Services
+1. Enterprise Resource Planning (ERP) Systems
+
+Modules: Finance, HR, Inventory, CRM, Procurement, Sales
+
+Features:
+
+Multi-currency support for international clients
+
+Automated payroll and tax computation
+
+Advanced inventory alerts and real-time stock tracking
+
+CRM dashboards for sales and marketing insights
+
+Notes:
+Some clients request custom modules like vendor rating in procurement or AI-based forecasting in inventory. Development teams must coordinate with the PM before starting.
+
+2. Cloud Solutions
+
+Platforms: AWS, Microsoft Azure
+
+Services:
+
+Cloud migration from legacy systems
+
+Managed hosting for web and ERP apps
+
+Continuous monitoring & uptime alerts
+
+Security compliance (ISO 27001 readiness, GDPR alignment)
+
+Dummy Info:
+Currently managing 50+ client instances on Azure, with an internal SLA of 99.9% uptime. Recently migrated a medium-sized retail chain with 70 stores, reducing their IT overhead by 30%.
+
+3. Mobile Applications
+
+Platforms: Android & iOS
+
+Industries: Fintech, Healthcare, E-commerce, Retail
+
+Dummy Examples:
+
+Mobile banking app with 2 million active users, full KYC integration, instant payments, and QR-based transfers
+
+Healthcare scheduling app integrated with EMR systems for clinics across Karachi
+
+Retail loyalty app with points and in-app promotions
+
+Development Notes:
+Each mobile app must undergo internal QA for performance, security, and user experience. Some modules like payment gateways require separate PCI compliance check.
+
+4. Consulting & IT Strategy
+
+Services:
+
+Architecture reviews for new projects
+
+Business process analysis for clients looking to digitize
+
+IT roadmaps, cloud strategy, and AI/ML integration
+
+Dummy Info:
+A recent engagement involved designing an IoT analytics dashboard for a mid-size manufacturer, integrating 500+ sensors, and providing real-time reporting to plant managers.
+
+Recent Projects
+
+Retail Inventory Management System
+
+Scope: 120 stores across Pakistan
+
+Tech: Cloud ERP + Mobile App for store managers
+
+Results: Cost reduction by 20%, reporting speed up by 50%
+
+Developer Notes: Logging system needs improvement; 3 alert failures reported in QA.
+
+Mobile Banking App
+
+Users: 2 million
+
+Features: Payments, QR scanning, KYC verification, account analytics
+
+Deployment: iOS 16+ and Android 12+
+
+Internal Note: Upcoming feature – AI-powered expense categorization.
+
+Healthcare Scheduling System
+
+Platform: Web + Mobile
+
+Integration: EMR systems, doctor calendars
+
+Result: Reduced patient scheduling errors by 30%, improved appointment notifications
+
+QA Note: Push notifications sometimes delayed in Android 11 devices.
+
+Manufacturing Analytics Dashboard
+
+Tech: IoT sensors, React dashboards, Node.js backend
+
+Features: Real-time production monitoring, predictive maintenance alerts
+
+Dummy Outcome: Reduced downtime by 15%, improved factory throughput
+
+Developer Note: Some legacy machines sending duplicate sensor data; need data cleaning script.
+
+Departments
+
+Software Engineering
+
+Teams: Backend, Frontend, Mobile, DevOps, QA
+
+Notes: Backend team mainly Node.js, Python; DevOps handles CI/CD pipelines for AWS and Azure.
+
+Cloud Team
+
+Handles deployment, monitoring, security audits, and SLA management
+
+Product Management
+
+Roadmaps, requirements gathering, client communications
+
+Notes: PMs are responsible for approving any feature deviations requested by clients
+
+Design & UX
+
+Tools: Figma, Sketch, Adobe XD
+
+Role: Ensure UI consistency, accessibility standards, and user-friendly flows
+
+Sales & Marketing
+
+Activities: Lead generation, digital campaigns, client demos, trade shows
+
+HR & Administration
+
+Responsibilities: Hiring, onboarding, benefits, employee engagement
+
+Dummy Info: New internship program started in 2024, 15 interns onboarded across departments.
+
+Policies
+
+Code of Conduct: Respect, confidentiality, ethical behavior, zero tolerance for harassment
+
+Remote Work: 3 days/week, active on Slack/Teams during core hours
+
+Security: VPN + 2FA required for all internal systems, report breaches within 24 hours
+
+HR Note: Remote work policy might change next quarter; update the portal once confirmed
+
+Leadership Team
+
+Ayesha Khan – CEO
+15 years in enterprise software, strategic growth planning, client relations
+
+Bilal Ahmed – CTO
+Cloud & AI expert, oversees architecture, tech adoption, and R&D
+
+Sara Malik – COO
+Operations, client success, process optimization
+
+Fahad Iqbal – CFO
+Financial planning, budgeting, investor relations
+
+FAQ / Internal Notes
+
+ERP Password Reset: Use login page “Forgot password” → follow email instructions
+
+Cloud Instance Request: Submit via IT portal with project details
+
+Mobile App Support: mobile-support@contosotech.com
+
+Office Hours: 9 AM – 6 PM, Monday to Friday
+
+Client Data: Encrypted at rest & in transit, role-based access control
+
+Internal Note: FAQ section outdated, update for ERP 3.2 release; mobile app instructions need screenshots
+
+Contacts
+
+Headquarters: Tower 2, Tech Park, Karachi
+
+Email: contact@contosotech.com
+
+Phone: +92 21 34567890
+
+Website: www.contosotech.com
+
+Support Portal: support.contosotech.com
+
+Miscellaneous Notes
+
+Random Dev Lead comment: “Inventory module needs better logging; QA reported 3 missing alerts.”
+
+HR Note: Internship program evaluation report due by end of month.
+
+Product Note: ERP clients frequently request custom dashboards; track all requests in JIRA.
+
+Cloud Note: Azure cost optimization review scheduled for next quarter.
+
+Office Note: New printers in 5th-floor lab; troubleshoot via IT ticketing system.
