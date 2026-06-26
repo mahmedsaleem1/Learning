@@ -1,0 +1,22 @@
+The main problem is WebSockets keep a persistent connection with a specific server.
+
+With horizontal scaling:
+
+User A connects to Server 1.
+User B connects to Server 2.
+Server 1 doesn't automatically know about connections on Server 2.
+
+So if you want to send a message to all users, you need a shared system like Redis Pub/Sub, a message broker, or another central layer to coordinate between servers.
+
+Without this:
+
+Messages may only reach users connected to the same server.
+Broadcasts, chat apps, notifications, and presence tracking become difficult.
+
+That's why WebSockets often use:
+
+Redis Pub/Sub
+Apache Kafka
+RabbitMQ
+
+to sync events across multiple servers.
