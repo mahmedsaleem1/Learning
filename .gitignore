@@ -6,6 +6,12 @@ yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
 
+#.NET Core
+bin
+obj
+
+
+
 # Runtime data
 pids/
 *.pid
